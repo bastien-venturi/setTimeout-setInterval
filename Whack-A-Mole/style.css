@@ -1,0 +1,30 @@
+/* Styles pour la grille de 3x3 */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fff; /* Ajoutez une couleur de fond à la grille */
+}
+
+/* Styles des trous */
+.hole {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+/* Style pour les taupes actives */
+.up {
+    background-color: #333; /* Changez la couleur en cas d'activation */
+}
